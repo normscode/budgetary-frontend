@@ -1,6 +1,6 @@
 const Dashboard = () => {
   return (
-    <main className="flex-1 flex flex-col h-screen">
+    <section className="flex-1 flex flex-col h-screen">
       <div className="flex justify-between p-4 w-full">
         <h2>Dashboard</h2>
         <div className="flex gap-2">
@@ -47,7 +47,7 @@ const Dashboard = () => {
           </div>
         </div>
       </div>
-    </main>
+    </section>
   );
 };
 
